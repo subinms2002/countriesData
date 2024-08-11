@@ -1,0 +1,10 @@
+.CountriesBox{
+    background-color: rgb(220, 214, 181);
+    height: 100vh;
+    weight: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ 

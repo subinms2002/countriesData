@@ -1,0 +1,19 @@
+.listiteam{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+
+}
+.listItem h3 {
+    width: 18rem;
+    
+}
+.listiteam button{
+    height: 20px;
+   
+}
+.done{
+    text-decoration: line-through;
+    background-color: green;
+}

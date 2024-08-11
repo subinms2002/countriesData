@@ -1,0 +1,82 @@
+nav div{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+    
+    .logo {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .nav-links li {
+        display: inline;
+    }
+    
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+
+  
+footer{
+ /* src/components/Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Optional for sticky footer */
+    bottom: 0; /* Align footer at the bottom */
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Center the content */
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+}
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+
+}
+main{
+    flex-grow: 1;
+}
